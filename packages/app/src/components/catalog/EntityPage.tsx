@@ -137,6 +137,7 @@ import {
   EntityNewRelicDashboardCard,
 } from '@backstage/plugin-newrelic-dashboard';
 import { EntityGoCdContent, isGoCdAvailable } from '@backstage/plugin-gocd';
+import { Mermaid } from 'backstage-plugin-techdocs-addon-mermaid';
 
 import React, { ReactNode, useMemo, useState } from 'react';
 
@@ -179,6 +180,7 @@ const techdocsContent = (
     <TechDocsAddons>
       <TextSize />
       <ReportIssue />
+      <Mermaid />
     </TechDocsAddons>
   </EntityTechdocsContent>
 );

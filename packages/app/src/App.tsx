@@ -98,6 +98,7 @@ import { techDocsPage } from './components/techdocs/TechDocsPage';
 import { ApacheAirflowPage } from '@backstage/plugin-apache-airflow';
 import { PermissionedRoute } from '@backstage/plugin-permission-react';
 import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common';
+import { Mermaid } from 'backstage-plugin-techdocs-addon-mermaid';
 
 const app = createApp({
   apis,
@@ -189,6 +190,7 @@ const routes = (
         <ExpandableNavigation />
         <ReportIssue />
         <TextSize />
+        <Mermaid />
       </TechDocsAddons>
     </Route>
     <Route

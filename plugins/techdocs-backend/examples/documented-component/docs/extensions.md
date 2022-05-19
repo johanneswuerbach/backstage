@@ -51,6 +51,19 @@ TechDocs -> CloudStorage: publishes
 CloudStorage -> Backstage: displays
 ```
 
+## Mermaid
+
+You can create dynamic diagrams on the fly by just specifying flow via text,
+using [Mermaid](https://mermaid-js.github.io/mermaid/#/).
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 ## Pymdownx Extensions
 
 Pymdownx (Python Markdown extensions) are a variety of smaller additions.
